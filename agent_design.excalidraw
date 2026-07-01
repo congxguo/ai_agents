@@ -2430,9 +2430,9 @@
       "id": "Egz7RQkAKQi5nZSzXcp1D",
       "type": "arrow",
       "x": 2897.7029339020514,
-      "y": 4206.99699379506,
+      "y": 4215.428629756034,
       "width": 433.41739208526815,
-      "height": 202.55701443820817,
+      "height": 210.988650399182,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -2448,11 +2448,11 @@
         "type": 2
       },
       "seed": 705499382,
-      "version": 157,
-      "versionNonce": 1318463402,
+      "version": 158,
+      "versionNonce": 1662476948,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1782900076229,
+      "updated": 1782900230808,
       "link": null,
       "locked": false,
       "points": [
@@ -2462,7 +2462,7 @@
         ],
         [
           -433.41739208526815,
-          -202.55701443820817
+          -210.988650399182
         ]
       ],
       "startBinding": {
@@ -2485,7 +2485,7 @@
       "x": 2903.7029339020514,
       "y": 4066.796390715036,
       "width": 1155.0796357565864,
-      "height": 438.04859348561786,
+      "height": 460,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -2501,8 +2501,8 @@
         "type": 3
       },
       "seed": 2080098218,
-      "version": 126,
-      "versionNonce": 1152330282,
+      "version": 127,
+      "versionNonce": 1488533396,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2514,7 +2514,7 @@
           "id": "q4DRHMTpAXT_Qu0HtF5Lh"
         }
       ],
-      "updated": 1782900076229,
+      "updated": 1782900230805,
       "link": null,
       "locked": false
     },
@@ -2522,9 +2522,9 @@
       "id": "q4DRHMTpAXT_Qu0HtF5Lh",
       "type": "text",
       "x": 2908.7029339020514,
-      "y": 4083.3206874578455,
-      "width": 1124.423583984375,
-      "height": 405,
+      "y": 4071.796390715036,
+      "width": 1129.78759765625,
+      "height": 450,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -2538,20 +2538,20 @@
       "index": "b088",
       "roundness": null,
       "seed": 1779957750,
-      "version": 747,
-      "versionNonce": 1113347306,
+      "version": 767,
+      "versionNonce": 1354087060,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1782900076229,
+      "updated": 1782900235142,
       "link": null,
       "locked": false,
-      "text": "How to make sure the response is precise enough for action\ntaken?\n1. Narrow the possible suitable answer by the format or schema.\n  - we reject any responses which do not follow the rules\n  - as long as we accept the reponse for action triggering, it\nshould be meet our anticipation\n2. One problem is the LLM keep replying with the unexpected\nmessage, we need to handle such case, like switch to another\nmodel, send alert, or quit after specific attempts.",
+      "text": "How to make sure the response is precise enough for action\ntaken?\n1. Narrow the possible suitable answer (standard answer) by the\nformat or schema.\n  - we reject any responses which do not follow the rules\n  - as long as we accept the reponse for action triggering, it\nshould be meet our anticipation\n2. One problem is the LLM keep replying with the unexpected\nmessage, we need to handle such case, like switch to another\nmodel, send alert, or quit after specific attempts.",
       "fontSize": 36,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "middle",
       "containerId": "iRFD_4GxGiZD6Ju_bm_Ie",
-      "originalText": "How to make sure the response is precise enough for action taken?\n1. Narrow the possible suitable answer by the format or schema.\n  - we reject any responses which do not follow the rules\n  - as long as we accept the reponse for action triggering, it should be meet our anticipation\n2. One problem is the LLM keep replying with the unexpected message, we need to handle such case, like switch to another model, send alert, or quit after specific attempts.",
+      "originalText": "How to make sure the response is precise enough for action taken?\n1. Narrow the possible suitable answer (standard answer) by the format or schema.\n  - we reject any responses which do not follow the rules\n  - as long as we accept the reponse for action triggering, it should be meet our anticipation\n2. One problem is the LLM keep replying with the unexpected message, we need to handle such case, like switch to another model, send alert, or quit after specific attempts.",
       "autoResize": true,
       "lineHeight": 1.25
     },
