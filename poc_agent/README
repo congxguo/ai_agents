@@ -1,0 +1,9 @@
+How the pieces fit together:
+
+Harness — the Agent class. It owns conversation state, wires together the LLM client, tool registry, and hook manager, and manages memory (a simple sliding-window trim).
+Loop — Agent.run(): call the model → if it wants a tool, run it and feed the result back → repeat until the model gives a final answer or max_steps is hit.
+Hooks — HookEvent gives named interception points (before_llm_call, after_tool_call, etc.). Any hook can inspect data, rewrite it (e.g. patch a tool call's arguments), or set abort=True to short-circuit the loop. build_default_hooks() shows three realistic uses: structured logging, a safety guard that blocks an unsafe tool call before it runs, and metrics collection.
+Tools — a small registry (calculator, get_time, fun_fact) with JSON-schema parameter specs, ready to hand to a real model's tool-use API.
+LLM layer — pluggable. ScriptedMockLLM is a deterministic stand-in so the file runs with zero setup (verified above). AnthropicLLMClient is a real Messages-API implementation with tool use — it activates automatically if you set ANTHROPIC_API_KEY and pip install anthropic.
+
+Run it yourself with python agent_harness.py. If you want, I can extend this with things like parallel tool calls, streaming, persistent memory/vector store, or a human-approval hook for sensitive tools.
