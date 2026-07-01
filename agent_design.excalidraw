@@ -6,10 +6,10 @@
     {
       "id": "WHxb_A8rEoJ-VhKPtna3v",
       "type": "rectangle",
-      "x": 1510.6316729469384,
-      "y": 3198.4935906047895,
-      "width": 226.34873112873865,
-      "height": 253.6848447867456,
+      "x": 1511.7133743031807,
+      "y": 3242.440852682815,
+      "width": 364.93228395520913,
+      "height": 251.93103917388993,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -25,8 +25,8 @@
         "type": 3
       },
       "seed": 1482558058,
-      "version": 607,
-      "versionNonce": 1607885484,
+      "version": 754,
+      "versionNonce": 1763072172,
       "isDeleted": false,
       "boundElements": [
         {
@@ -38,17 +38,17 @@
           "type": "arrow"
         }
       ],
-      "updated": 1782900444756,
+      "updated": 1782901214276,
       "link": null,
       "locked": false
     },
     {
       "id": "6dTw5boB56NGnUldBAETu",
       "type": "text",
-      "x": 1532.0420767193154,
-      "y": 3257.8360129981625,
-      "width": 183.52792358398438,
-      "height": 135,
+      "x": 1521.9735836635978,
+      "y": 3255.90637226976,
+      "width": 344.411865234375,
+      "height": 225,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -62,20 +62,20 @@
       "index": "a9",
       "roundness": null,
       "seed": 1749401846,
-      "version": 605,
-      "versionNonce": 1791831340,
+      "version": 760,
+      "versionNonce": 1956537132,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1782900444756,
+      "updated": 1782901214276,
       "link": null,
       "locked": false,
-      "text": "Hooks\n(extension\npoints)",
+      "text": "Hooks\n(extension points -\nCustomization,\nextension, workflow\ncontrol)",
       "fontSize": 36,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "WHxb_A8rEoJ-VhKPtna3v",
-      "originalText": "Hooks\n(extension points)",
+      "originalText": "Hooks\n(extension points - Customization, extension, workflow control)",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -825,10 +825,10 @@
     {
       "id": "AB2jr9Sg0Ay4r1qRut8Q7",
       "type": "arrow",
-      "x": 1742.980404075677,
-      "y": 3326.0631492410403,
-      "width": 234.07708880625728,
-      "height": 27.377958984071483,
+      "x": 1882.6456582583903,
+      "y": 3368.3003773391615,
+      "width": 94.41183462354388,
+      "height": 2.064283836559298,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -844,11 +844,11 @@
         "type": 2
       },
       "seed": 880293046,
-      "version": 1241,
-      "versionNonce": 830908332,
+      "version": 1379,
+      "versionNonce": 398532012,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1782900444757,
+      "updated": 1782901214276,
       "link": null,
       "locked": false,
       "points": [
@@ -857,8 +857,8 @@
           0
         ],
         [
-          234.07708880625728,
-          27.377958984071483
+          94.41183462354388,
+          -2.064283836559298
         ]
       ],
       "startBinding": {
@@ -2877,10 +2877,10 @@
     {
       "id": "Nz2Y9CtHZIMqvlGwdLuFJ",
       "type": "rectangle",
-      "x": 1513.7814587446535,
-      "y": 3550.768933579449,
-      "width": 225.61921160941245,
-      "height": 219.95085597928536,
+      "x": 1522.8752968907363,
+      "y": 3567.686239674167,
+      "width": 293.48968275223643,
+      "height": 221.7243430866129,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -2896,8 +2896,8 @@
         "type": 3
       },
       "seed": 1723617940,
-      "version": 690,
-      "versionNonce": 1206209580,
+      "version": 772,
+      "versionNonce": 379264276,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2909,17 +2909,17 @@
           "type": "arrow"
         }
       ],
-      "updated": 1782900448656,
+      "updated": 1782901217293,
       "link": null,
       "locked": false
     },
     {
       "id": "1E5EW1KNK5MhJ0VXcrq5F",
       "type": "text",
-      "x": 1532.1451035508246,
-      "y": 3593.244361569092,
-      "width": 188.8919219970703,
-      "height": 135,
+      "x": 1572.690183738046,
+      "y": 3588.5484112174736,
+      "width": 193.8599090576172,
+      "height": 180,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -2933,30 +2933,30 @@
       "index": "b0M",
       "roundness": null,
       "seed": 2050809876,
-      "version": 712,
-      "versionNonce": 339928748,
+      "version": 824,
+      "versionNonce": 148789908,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1782900448656,
+      "updated": 1782901217293,
       "link": null,
       "locked": false,
-      "text": "Guardrail\n(safty and\ncontrol)",
+      "text": "Guardrail\n(safty,\nrestriction,\ncompliance)",
       "fontSize": 36,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "Nz2Y9CtHZIMqvlGwdLuFJ",
-      "originalText": "Guardrail\n(safty and control)",
+      "originalText": "Guardrail\n(safty, restriction, compliance)",
       "autoResize": true,
       "lineHeight": 1.25
     },
     {
       "id": "3JAkiGgx01mVekFQv4xdN",
       "type": "arrow",
-      "x": 1745.4006703540658,
-      "y": 3658.526170956211,
-      "width": 231.6568225278686,
-      "height": 86.49238346362563,
+      "x": 1822.3649796429725,
+      "y": 3675.1256811990347,
+      "width": 154.69251323896174,
+      "height": 88.81676971309071,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -2972,11 +2972,11 @@
         "type": 2
       },
       "seed": 525583788,
-      "version": 1294,
-      "versionNonce": 1728655660,
+      "version": 1376,
+      "versionNonce": 450750484,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1782900448656,
+      "updated": 1782901217293,
       "link": null,
       "locked": false,
       "points": [
@@ -2985,8 +2985,8 @@
           0
         ],
         [
-          231.6568225278686,
-          -86.49238346362563
+          154.69251323896174,
+          -88.81676971309071
         ]
       ],
       "startBinding": {
